@@ -1,0 +1,66 @@
+site_name: The LOGIQ Glossary for Observability and Kubernetes
+copyright: Copyright &copy; 2018 - 2021 LOGIQ.ai Inc.
+
+theme:
+  logo: media/logiq-white.png
+  font:
+    text: Roboto
+    code: Roboto Mono
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+      primary: pink 
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+      primary: pink 
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top 
+
+markdown_extensions:
+  - toc:
+      permalink: true
+
+plugins:
+  - search:
+      separator: '[\s\-\.]+'
+      prebuild_index: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/logiqai
+      name: Fork LOGIQ on GitHub
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/logiq_ai
+      name: Follow LOGIQ on Twitter
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCknndR4L6qUZdHq0L7H3Zlg
+      name: Watch LOGIQ videos on YouTube
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/logiq-ai/
+      name: Join LOGIQ on LinkedIn
+
+nav:
+- Home: index.md
+- Observability:
+  - Home: observability/index.md
+  - Cardinality: observability/cardinality.md
+  - Context: observability/context.md
+  - Dimensionality: observability/index.md
+  - Instrumentation: observability/index.md
+  - Logs: observability/index.md
+  - Metrics: observability/index.md
+  - Observability: observability/index.md
+  - Structured: observability/index.md Events
+  - Telemetry: observability/index.md
+  - Traces: observability/index.md
+- Kubernetes:
+  - Home: kubernetes/index.md
