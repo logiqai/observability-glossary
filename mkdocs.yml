@@ -1,7 +1,8 @@
 site_name: The LOGIQ Glossary for Observability and Kubernetes
-copyright: Copyright &copy; 2018 - 2021 LOGIQ.ai Inc.
 
 theme:
+  name: null
+  custom_dir: material
   logo: media/logiq-white.png
   font:
     text: Roboto
@@ -23,6 +24,10 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.top 
+  static_templates:
+    - 404.html
+  include_search_page: false
+  search_index_only: true
 
 markdown_extensions:
   - toc:
@@ -64,3 +69,10 @@ nav:
   - Traces: observability/index.md
 - Kubernetes:
   - Home: kubernetes/index.md
+  - Cluster: kubernetes/cluster.md
+  - Container: kubernetes/container.md
+  - Microservices: kubernetes/microservices.md
+  - Namespace: kubernetes/namespace.md
+  - Nodes: kubernetes/nodes.md
+  - Pods: kubernetes/pods.md
+
