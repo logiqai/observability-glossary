@@ -15,7 +15,7 @@
     
     
       
-        <title>Pods - The LOGIQ Glossary for Observability and Kubernetes</title>
+        <title>MicroK8s - The LOGIQ Glossary for Observability and Kubernetes</title>
       
     
     
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#pods" class="md-skip">
+        <a href="#microk8s" class="md-skip">
           Skip to content
         </a>
       
@@ -95,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Pods
+              MicroK8s
             
           </span>
         </div>
@@ -499,6 +499,18 @@
             
   
   
+  
+    <li class="md-nav__item">
+      <a href="../pods/" class="md-nav__link">
+        Pods
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
     
   
   
@@ -510,22 +522,40 @@
         
       
       
-      <a href="./" class="md-nav__link md-nav__link--active">
-        Pods
-      </a>
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          MicroK8s
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../microk8s/" class="md-nav__link">
+      <a href="./" class="md-nav__link md-nav__link--active">
         MicroK8s
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#also-read" class="md-nav__link">
+    Also read
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -567,6 +597,21 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#also-read" class="md-nav__link">
+    Also read
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -578,8 +623,12 @@
               
                 
                 
-                <h1 id="pods">Pods<a class="headerlink" href="#pods" title="Permanent link">&para;</a></h1>
-<p>A pod is the smallest object in a Kubernetes cluster and is a group of running containers on your cluster. A pod typically suns a single primary container while supporting the running of optional sidecar containers to aid monitoring and observability. The containers in a pod share storage and networking resources and a common configuration for how to run the containers. </p>
+                <h1 id="microk8s">MicroK8s<a class="headerlink" href="#microk8s" title="Permanent link">&para;</a></h1>
+<p><a href="http://microk8s.io/">MicroK8s</a> is a lightweight, pure-upstream Kubernetes aiming to reduce entry barriers for K8s and cloud-native application development. It comes in a single package that installs a single-node (standalone) K8s cluster in under 60 seconds. While MicroK8s has all the Kubernetes core components, it is also opinionated, which means that many of the add-ons you would typically look for in Kubernetes, such as DNS, Helm, registry, storage, etc. are all a single command away.</p>
+<h2 id="also-read">Also read<a class="headerlink" href="#also-read" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://logiq.ai/run-helm-charts-using-microk8s/">Run your favorite Helm Chart using MicroK8s in 5 minutes</a></li>
+</ul>
                 
               
               
@@ -603,7 +652,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../nodes/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Nodes" rel="prev">
+        <a href="../pods/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Pods" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -612,20 +661,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Nodes
+              Pods
             </div>
           </div>
         </a>
       
       
         
-        <a href="../microk8s/" class="md-footer__link md-footer__link--next" aria-label="Next: MicroK8s" rel="next">
+        <a href="../k3s/" class="md-footer__link md-footer__link--next" aria-label="Next: K3s" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              MicroK8s
+              K3s
             </div>
           </div>
           <div class="md-footer__button md-icon">
