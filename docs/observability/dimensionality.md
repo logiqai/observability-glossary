@@ -1,3 +1,5 @@
 # Dimensionality
 
-The **dimensionality** of data refers to how many fields or attributes a piece of data has attached to it. Examples of low-dimensionality data include metrics and flat logs. High-dimensionality data includes anything that can support many fields or attributes, including JSON blobs, structs, and objects.
+Dimensionality of data is the number of fields or attributes of data. Log data can be low and high dimensional. Plain logs and metrics are examples of low dimensional data while log data that contains numerous attributes, data objects, and JSON blurbs. 
+
+Log data can have several dimensions but only few dimensions turn out to provide real value. A good observability tool can help you reduce dimensionality through simplification and [visualization of key events in your log data](https://logiq.ai/convert-your-log-data-to-a-time-series-event-visualization/).

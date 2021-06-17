@@ -13,12 +13,14 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
-      primary: pink 
+      primary: pink
+      accent: pink 
     - scheme: slate
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
       primary: pink 
+      accent: pink 
   features:
     - navigation.instant
     - navigation.tabs
@@ -32,6 +34,7 @@ theme:
 markdown_extensions:
   - toc:
       permalink: true
+  - attr_list
 
 plugins:
   - search:
@@ -59,12 +62,10 @@ nav:
   - Home: observability/index.md
   - Cardinality: observability/cardinality.md
   - Context: observability/context.md
-  - Dimensionality: observability/index.md
-  - Instrumentation: observability/index.md
+  - Dimensionality: observability/dimensionality.md
+  - Events: observability/events.md
   - Logs: observability/index.md
   - Metrics: observability/index.md
-  - Observability: observability/index.md
-  - Structured: observability/index.md Events
   - Telemetry: observability/index.md
   - Traces: observability/index.md
 - Kubernetes:
@@ -75,4 +76,6 @@ nav:
   - Namespace: kubernetes/namespace.md
   - Nodes: kubernetes/nodes.md
   - Pods: kubernetes/pods.md
+  - MicroK8s: kubernetes/microk8s.md
+  - K3s: kubernetes/k3s.md
 
