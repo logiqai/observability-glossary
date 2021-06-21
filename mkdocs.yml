@@ -1,25 +1,18 @@
 site_name: The LOGIQ Glossary for Observability and Kubernetes
+site_url: https://glossary.logiq.ai/
 
 theme:
   name: null
   custom_dir: material
+  favicon: media/favicon.png
   logo: media/logiq-white.png
   font:
     text: Roboto
     code: Roboto Mono
   name: material
   palette:
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Switch to light mode
-      primary: pink
-      accent: pink 
     - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
-      primary: pink 
+      primary: pink
       accent: pink 
   features:
     - navigation.instant
@@ -55,27 +48,39 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/logiq-ai/
       name: Join LOGIQ on LinkedIn
+  analytics:
+    provider: google
+    property: G-FM1WSDN735
+  homepage: https://logiq.ai/
 
 nav:
 - Home: index.md
 - Observability:
   - Home: observability/index.md
+  - AIOps: observability/aiops.md
   - Cardinality: observability/cardinality.md
   - Context: observability/context.md
   - Dimensionality: observability/dimensionality.md
   - Events: observability/events.md
-  - Logs: observability/index.md
-  - Metrics: observability/index.md
-  - Telemetry: observability/index.md
-  - Traces: observability/index.md
+  - Logs: observability/logs.md
+  - Metadata: observability/metadata.md
+  - Metrics: observability/metrics.md
+  - Sources: observability/sources.md
+  - Traces: observability/traces.md
 - Kubernetes:
   - Home: kubernetes/index.md
   - Cluster: kubernetes/cluster.md
   - Container: kubernetes/container.md
+  - Control plane: kubernetes/control-plane.md
+  - K3s: kubernetes/k3s.md
+  - kubeadm: kubernetes/kubeadm.md
+  - Kubernetes API: kubernetes/the-kubernetes-api.md
+  - kubectl: kubernetes/kubectl.md
+  - MicroK8s: kubernetes/microk8s.md
   - Microservices: kubernetes/microservices.md
   - Namespace: kubernetes/namespace.md
   - Nodes: kubernetes/nodes.md
   - Pods: kubernetes/pods.md
-  - MicroK8s: kubernetes/microk8s.md
-  - K3s: kubernetes/k3s.md
+
+
 
